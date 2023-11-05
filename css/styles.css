@@ -343,5 +343,11 @@ img {
         padding: 0 100px;
     }
 
+    .wrap-signUp {
+        gap: 200px;
+    }
+
+
+
 
 }
