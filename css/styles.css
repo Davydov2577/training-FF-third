@@ -297,11 +297,18 @@ img {
 
         display: flex;
         align-items: center;
-        padding-top: 76px;
-        padding-right: 19px;
+        /* padding-top: 76px;
+        padding-right: 19px; */
+
+        padding: 76px 19px;
         margin-right: 20px;
 
         align-self: flex-end;
+    }
+
+    .signUp-img-obj {
+        /* background-color: transparent; */
+
     }
 
 
@@ -316,7 +323,9 @@ img {
         padding: 156px 50px 88px;
     }
 
-    .signUp-img-nikon {}
+    .signUp-img-nikon {
+        /* background-color: transparent; */
+    }
 
 
 }
