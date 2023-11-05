@@ -58,13 +58,29 @@
                     <div class="wrap-image">
 
                         <div class="signUp-obj">
-                            <img src="./images/compress_1280_!_png/obj-1280-!-1x-min.png" alt="objective" width="142"
-                                class="signUp-img-obj">
+
+                            <picture>
+                                <source srcset="./images/obj-1440-1x-min.png 1x, ./images/obj-1440-2x-min.png 2x"
+                                    media="(min-width:1440px)" />
+                                <source srcset="./images/obj-1280-1x-min.png 1x, ./images/obj-1280-2x-min.png 2x"
+                                    media="(min-width:1280px)" />
+                                <img src="./images/obj-1280-1x-min.png" alt="objective" width="142" height="150"
+                                    class="signUp-img-obj">
+                            </picture>
+
                         </div>
 
                         <div class="signUp-nikon">
-                            <img src="./images/compress_1280_!_png/nikon-1280-1x-min.png" alt="nikon" width="240"
-                                height="296" class="signUp-img-nikon">
+
+                            <picture>
+                                <source srcset="./images/nikon-1440-1x-min.png 1x, ./images/nikon-1440-2x-min.png 2x"
+                                    media="(min-width:1440px)" />
+                                <source srcset="./images/nikon-1280-1x-min.png 1x, ./images/nikon-1280-2x-min.png 2x"
+                                    media="(min-width:1280px)" />
+                                <img src="./images/nikon-1280-1x-min.png" alt="nikon" width="240" height="296"
+                                    class="signUp-img-nikon">
+                            </picture>
+
                         </div>
 
                     </div>
