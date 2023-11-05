@@ -326,8 +326,6 @@ img {
     .signUp-img-nikon {
         /* background-color: transparent; */
     }
-
-
 }
 
 
@@ -339,15 +337,10 @@ img {
 @media screen and (min-width: 1440px) {
 
     .container {
-        max-width: 1280px;
-        padding: 0 100px;
+        max-width: 1440px;
     }
 
     .wrap-signUp {
         gap: 200px;
     }
-
-
-
-
 }
